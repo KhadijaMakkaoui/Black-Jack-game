@@ -9,7 +9,7 @@ public enum SuiteCouleur {
     final String nom;
     String Couleur;
 
-    SuiteCouleur(int nombre_carte, String nom, String couleur) {
+    SuiteCouleur(int nombre_carte, String couleur, String nom) {
         this.nombre_carte = nombre_carte;
         this.nom = nom;
         Couleur = couleur;
