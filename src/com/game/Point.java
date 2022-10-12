@@ -1,7 +1,7 @@
 package com.game;
 
 public enum Point {
-    ACE_MIN("Ace",1,1),
+    //ACE_MIN("Ace",1,1),
     ACE_MAX("Ace",11,1),
     DEUX("Deux",2,2),
     TROIS("Trois",3,3),
@@ -27,8 +27,6 @@ public enum Point {
 
     @Override
     public String toString() {
-        return
-                nom
-                ;
+        return "" +hauteur;
     }
 }

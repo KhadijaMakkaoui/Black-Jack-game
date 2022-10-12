@@ -1,16 +1,16 @@
 package com.game;
 
 public enum SuiteCouleur {
-    CARREAUX(13,"Rouge","Carreaux"),
-    COEUR(13,"Rouge","Coeur"),
-    PIQUE(13,"Noir","Pique"),
-    TREFLE(13,"Noir","Carreaux");
-    final int nombre_carte;
+    CARREAUX(1,"Rouge","Carreaux"),
+    COEUR(2,"Rouge","Coeur"),
+    PIQUE(3,"Noir","Pique"),
+    TREFLE(4,"Noir","Carreaux");
+    final int num;
     final String nom;
     String Couleur;
 
-    SuiteCouleur(int nombre_carte, String couleur, String nom) {
-        this.nombre_carte = nombre_carte;
+    SuiteCouleur(int num, String couleur, String nom) {
+        this.num = num;
         this.nom = nom;
         Couleur = couleur;
     }
@@ -18,8 +18,6 @@ public enum SuiteCouleur {
     @Override
     public String toString() {
         return
-                "[nom='" + nom + '\'' +
-                ", Couleur='" + Couleur + '\'' +
-                ']';
+                ""+ num ;
     }
 }
