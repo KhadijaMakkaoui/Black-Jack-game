@@ -27,8 +27,8 @@ public enum Point {
 
     @Override
     public String toString() {
-        return "Point{" +
-                "nom='" + nom + '\'' +
-                '}';
+        return
+                nom
+                ;
     }
 }

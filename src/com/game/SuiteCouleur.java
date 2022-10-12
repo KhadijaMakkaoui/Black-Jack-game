@@ -17,10 +17,9 @@ public enum SuiteCouleur {
 
     @Override
     public String toString() {
-        return "SuiteCouleur{" +
-                "nombre_carte=" + nombre_carte +
-                ", nom='" + nom + '\'' +
+        return
+                "[nom='" + nom + '\'' +
                 ", Couleur='" + Couleur + '\'' +
-                '}';
+                ']';
     }
 }
