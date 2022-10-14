@@ -11,6 +11,11 @@ public class Carte {
         this.hauteur = hauteur;
     }
 
+    public Carte(Carte carte) {
+        this.suite = carte.getSuite();
+        this.hauteur = carte.getHauteur();
+    }
+
     public SuiteCouleur getSuite() {
         return suite;
     }
@@ -38,10 +43,6 @@ public class Carte {
         Collections.shuffle(listAMelanger);
         return listAMelanger;
     }
-    public void generate_random(int min, int max){
-        Random random=new Random();
-    }
-
     @Override
     public String toString() {
         return "(" + hauteur +
