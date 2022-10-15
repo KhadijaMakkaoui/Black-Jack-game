@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="00bc0ffc-d548-4d6a-907b-d1d074885b01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/game/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/game/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/BlackJack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/game/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/game/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/Jeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/game/Pioche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/game/Pioche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Youcode/IdeaProjects/DemenagementChallenge",
+    "last_opened_file_path": "C:/Users/Youcode/IdeaProjects/Black-Jack-game",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -53,7 +54,8 @@
       <workItem from="1665475722061" duration="719000" />
       <workItem from="1665494364878" duration="7233000" />
       <workItem from="1665560095178" duration="11175000" />
-      <workItem from="1665741263646" duration="4587000" />
+      <workItem from="1665741263646" duration="5833000" />
+      <workItem from="1665860740859" duration="2767000" />
     </task>
     <servers />
   </component>

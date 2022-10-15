@@ -22,14 +22,6 @@ public class Pioche {
         pioche.add(carte);
     }
 
-
-    @Override
-    public String toString() {
-        return "Pioche{" +
-                "\n" + pioche +
-                "}";
-    }
-
     public Carte piocher_n_carte() {
         //avoir une copiede la premiere carte
         Carte cate=new Carte(pioche.get(0));
@@ -39,4 +31,12 @@ public class Pioche {
 
 
     }
+    @Override
+    public String toString() {
+        return "Pioche{" +
+                "\n" + pioche +
+                "}";
+    }
+
+
 }
