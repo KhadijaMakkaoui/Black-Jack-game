@@ -1,4 +1,7 @@
 package com.game;
 
-public class Banque {
+public class Banque extends Personne{
+    public Banque(){
+        super.setNom("Banque");
+    }
 }

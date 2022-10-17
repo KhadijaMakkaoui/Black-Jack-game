@@ -1,8 +1,13 @@
 package com.game;
 
-public class Personne {
+public abstract class Personne {
     private String nom;
     private Hand hand;
+
+    public Personne() {
+        this.nom = "";
+        this.hand = new Hand();
+    }
 
     public String getNom() {
         return nom;
