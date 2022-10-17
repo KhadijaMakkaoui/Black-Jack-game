@@ -9,6 +9,16 @@ public class Hand {
     public Hand(){
         cartesHand=new ArrayList<>();
     }
+
+    /**
+     * get the card of the index in parameter
+     * @param i
+     * @return
+     */
+    public Carte getCarteHand(int i) {
+        return cartesHand.get(i);
+    }
+
     public void ajouter_cart_hand(Pioche p){
         cartesHand.add(p.piocher_n_carte());
     }
