@@ -24,4 +24,11 @@ public abstract class Personne {
     public void setHand(Hand hand) {
         this.hand = hand;
     }
+    public boolean black_jack(){
+        if (this.getHand().total_cartes()==21)
+            return true;
+        else
+            return false;
+    }
+
 }
