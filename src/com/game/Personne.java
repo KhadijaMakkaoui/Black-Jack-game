@@ -30,5 +30,9 @@ public abstract class Personne {
         else
             return false;
     }
+    public void afficherHand(){
+        System.out.println("La main du "+this.nom+" :");
+        System.out.println(this.hand +" , Sa valeur est : " +this.hand.total_cartes());
+    }
 
 }
