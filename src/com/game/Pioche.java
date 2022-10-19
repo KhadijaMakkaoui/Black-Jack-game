@@ -5,10 +5,11 @@ import java.util.List;
 
 public class Pioche {
     Carte carte;
-    private  List<Carte> pioche=new ArrayList<>();
+    private  List<Carte> pioche;
     private  List<Carte> pioche_melanger=new ArrayList<>();
 
     public Pioche(boolean isShuffled) {
+        pioche=new ArrayList<>();
         Carte.creer_cartes(pioche);
         if (isShuffled)
             Carte.melanger_carte(pioche);
@@ -16,6 +17,7 @@ public class Pioche {
 
     }
     public Pioche() {
+        pioche= new ArrayList<>();
     }
 
     public void ajouterCarte(Carte carte){

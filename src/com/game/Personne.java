@@ -24,15 +24,16 @@ public abstract class Personne {
     public void setHand(Hand hand) {
         this.hand = hand;
     }
-    public boolean black_jack(){
+    public boolean avoir_blackBack(){
         if (this.getHand().total_cartes()==21)
             return true;
         else
             return false;
     }
-    public void afficherHand(){
-        System.out.println("La main du "+this.nom+" :");
-        System.out.println(this.hand +" , Sa valeur est : " +this.hand.total_cartes());
-    }
+    public abstract void afficher_hand();
+    //{
+       // System.out.println("La main du "+this.nom+" :");
+        //System.out.println(this.hand +" , Sa valeur est : " +this.hand.total_cartes());
+    //}
 
 }

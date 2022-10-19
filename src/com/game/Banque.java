@@ -4,6 +4,7 @@ public class Banque extends Personne{
     public Banque(){
         super.setNom("Banque");
     }
+    @Override
     public void afficher_hand(){
         System.out.println("La main de la banque :");
         System.out.println(super.getHand().getCarteHand(0));

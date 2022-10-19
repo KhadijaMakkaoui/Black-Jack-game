@@ -27,6 +27,9 @@ public class BlackJack {
         joueur.getHand().ajouter_cart_hand(pioche);
         joueur.getHand().ajouter_cart_hand(pioche);
 
+        banque.afficher_hand();
+        joueur.afficherHand();
+
     }
 
 }
